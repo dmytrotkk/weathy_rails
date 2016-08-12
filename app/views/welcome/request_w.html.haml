@@ -1,0 +1,17 @@
+
+-if $api_key.nil?
+  %h1
+    Please, set your API key
+    =link_to weather_key_path do
+      here
+-else
+  %h1 Your API Key:
+  %h2
+    =$api_key
+
+
+  = simple_form_for(:request, :url =>weather_response_path, :html => { :method => 'GET' }) do |f|
+    = f.input :city,  label: "City"
+    = f.input :state,  label: "Country/State"
+    -#= f.input :choose_country,  label: "eCountry/State"
+    = f.button :submit, "Get Weather"

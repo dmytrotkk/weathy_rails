@@ -1,0 +1,13 @@
+%h1 Request:
+%h2
+  #{@city}, #{@country}
+
+
+%h1 Response:
+-@temp.each do |key, array|
+  %h3
+    #{key}: #{array}
+
+
+=link_to weather_request_path do
+  %h3 Submit again
