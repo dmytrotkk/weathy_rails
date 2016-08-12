@@ -48,7 +48,7 @@ end
 # mine
 gem "haml-rails", "~> 0.9"
 gem 'simple_form'
-gem "weathy", '~> 0.0.5' #, :path => "./"
+gem "weathy", '~> 0.0.7' #, :path => "./"
 gem 'json'
 
 gem 'activesupport', '~>4.2.6'

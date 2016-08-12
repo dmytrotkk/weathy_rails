@@ -22,9 +22,9 @@ class WelcomeController < ApplicationController
   def response_w
     @city = params[:request][:city]
     @country = params[:request][:state]
-    @res = Weathy.weather_by_city(@city,@country)
+    @temp  = Weathy.weather_by_city(@city,@country)
 
-    @temp = @res.parsed_response
+
 
     #@temp = JSON.parse(@res)
 

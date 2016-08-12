@@ -186,7 +186,7 @@
     <orderEntry type="library" scope="PROVIDED" name="turbolinks-source (v5.0.0, RVM: ruby-2.1.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v1.2.2, RVM: ruby-2.1.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="uglifier (v3.0.1, RVM: ruby-2.1.7) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="weathy (v0.0.5, RVM: ruby-2.1.7) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="weathy (v0.0.7, RVM: ruby-2.1.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="web-console (v2.3.0, RVM: ruby-2.1.7) [gem]" level="application" />
   </component>
   <component name="RModuleSettingsStorage">
